@@ -628,11 +628,6 @@ height: 1px;
 	border: 1px solid #C5C5C5;
 	background: #FFF;
 	padding: 35px 34px 34px 33px;
-}
-
-.third-container .top-content .first-block,
-.third-container .top-content .second-block,
-.third-container.top-content .third-block{
 	height: 296px;
 	display: grid;
 }
@@ -797,6 +792,10 @@ footer .wrap .bottom-content a{
 		width: 100%;
 	}
 
+	.third-container .top-content{
+		grid-template-columns: 32% 32% 32%;
+	}
+
 }
 
 @media screen and (max-width: 1300px){
@@ -856,6 +855,22 @@ footer .wrap .bottom-content a{
     right: 30px;
 	}
 
+	.third-container .top-content .first-block{
+		background-size: 48%;
+	}
+
+	.third-container .top-content .second-block,
+	.third-container .top-content .third-block{
+		background-size: 60%;
+	}
+
+	.third-container .top-content .first-block a div,
+	.third-container .top-content .second-block a div,
+	.third-container .top-content .third-block a div{
+		grid-template-rows: 0fr 0fr;
+		row-gap: 10%;
+	}
+
 
 
 	footer .wrap .top-content{
@@ -891,6 +906,12 @@ footer .wrap .bottom-content a{
 		justify-content: space-around;
 	}
 
+	.third-container .top-content{
+		grid-template-columns: 49% 49%;
+		column-gap: 2%;
+		row-gap: 30px;
+	}
+
 	
 }
 
@@ -903,6 +924,20 @@ footer .wrap .bottom-content a{
 		column-gap: 0;
 	}
 
+	.third-container .top-content .first-block{
+		background-size: 35%;
+	}
+
+	.third-container .top-content .second-block,
+	.third-container .top-content .third-block{
+		background-size: 45%;
+	}
+
+	.third-container .top-content .first-block a h5,
+	.third-container .top-content .second-block a h5,
+	.third-container .top-content .third-block a h5{
+		font-size: 26px;
+	}
 
 
 	footer .wrap .top-content{
@@ -988,6 +1023,11 @@ footer .wrap .bottom-content a{
 
 	.second-container>div{
 		grid-template-columns: 90%;
+	}
+
+	.third-container .top-content{
+		grid-template-columns: 90%;
+		justify-content: space-around;
 	}
 
 	
@@ -1143,6 +1183,31 @@ footer .wrap .bottom-content a{
 		height: 161px;
 		top: 25px;
 		right: 17px;
+	}
+
+	.third-container{
+		padding-top: 39px;
+		padding-bottom: 122px;
+	}
+
+	.third-container .top-content .first-block a h5,
+	.third-container .top-content .second-block a h5,
+	.third-container .top-content .third-block a h5{
+		font-size: 24px;
+	}
+
+	.third-container .top-content{
+		grid-template-columns:100%;
+		row-gap: 24px;
+	}
+
+	.third-container .top-content .first-block{
+		background-size: 50%;
+	}
+
+	.third-container .top-content .second-block,
+	.third-container .top-content .third-block{
+		background-size: 60%;
 	}
 
 

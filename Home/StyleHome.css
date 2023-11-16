@@ -753,11 +753,6 @@ backdrop-filter: blur(25px);
 	border: 1px solid #C5C5C5;
 	background: #FFF;
 	padding: 35px 34px 34px 33px;
-}
-
-.fifth-container .top-content .first-block,
-.fifth-container .top-content .second-block,
-.fifth-container .top-content .third-block{
 	height: 296px;
 	display: grid;
 }
@@ -1187,14 +1182,30 @@ footer .foot{
 	}
 
 	.fifth-container .top-content{
-		grid-template-columns: 1fr;
-		row-gap: 50px;
+		grid-template-columns: 49% 49%;
+		column-gap: 2%;
+		row-gap: 30px;
 	}
 
-	.fifth-container .top-content .first-block a div, 
-	.fifth-container .top-content .second-block a div, 
-	.fifth-container .top-content .third-block a div{
-		grid-template-columns: 56%;
+	/* .fifth-container .top-content .third-block{
+		grid-column: 1/span2;
+	}
+
+	.fifth-container .top-content .third-block{
+		background-size: 50%;
+		height: 100%;
+    width: 95%;
+	} */
+
+}
+
+@media screen and (max-width:768px){
+	.first-container header .menu .top-menu .searc form{
+		width: 228px;
+	}
+
+	.first-container header .menu .bottom-menu{
+		column-gap: 0;
 	}
 
 	.fifth-container .top-content .first-block{
@@ -1206,15 +1217,10 @@ footer .foot{
 		background-size: 45%;
 	}
 
-}
-
-@media screen and (max-width:768px){
-	.first-container header .menu .top-menu .searc form{
-		width: 228px;
-	}
-
-	.first-container header .menu .bottom-menu{
-		column-gap: 0;
+	.fifth-container .top-content .first-block a h5,
+	.fifth-container .top-content .second-block a h5,
+	.fifth-container .top-content .third-block a h5{
+		font-size: 26px;
 	}
 
 
@@ -1300,6 +1306,11 @@ footer .foot{
 		width: 100%;
 	}
 
+	.fifth-container .top-content{
+		grid-template-columns: 90%;
+		justify-content: space-around;
+	}
+
 	
 	
 	footer{
@@ -1364,6 +1375,31 @@ footer .foot{
 	.first-container header .menu .bottom-menu .searc{
 		margin-top: 28px;
 		margin-bottom: 20px;
+	}
+
+	.fifth-container{
+		padding-top: 39px;
+		padding-bottom: 122px;
+	}
+
+	.fifth-container .top-content .first-block a h5,
+	.fifth-container .top-content .second-block a h5,
+	.fifth-container .top-content .third-block a h5{
+		font-size: 24px;
+	}
+
+	.fifth-container .top-content{
+		grid-template-columns:100%;
+		row-gap: 24px;
+	}
+
+	.fifth-container .top-content .first-block{
+		background-size: 50%;
+	}
+
+	.fifth-container .top-content .second-block,
+	.fifth-container .top-content .third-block{
+		background-size: 60%;
 	}
 
 
