@@ -133,11 +133,6 @@ backdrop-filter: blur(25px);
 	width: 100%;
 }
 
-.third-container .top-block{
-	display: flex;
-	justify-content: space-between;
-}
-
 .third-container .top-block h3{
 	color: #000;
 	font-size: 48px;
@@ -263,7 +258,7 @@ backdrop-filter: blur(25px);
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
-	top: -80px;
+	top: -90px;
 		right: 60px;
 		margin: 0;
 }
@@ -286,7 +281,7 @@ backdrop-filter: blur(25px);
 	background-position: center;
 	position: absolute;
 	right: 0;
-	top: -80px;
+	top: -90px;
 	margin: 0;
 }
 
@@ -303,15 +298,11 @@ backdrop-filter: blur(25px);
 	background-color: #EBEBEB;
 }
 
-.fourth-container .top-block{
-	display: flex;
-	justify-content: space-between;
-}
-
 .fourth-container .top-block h3{
 	color: #000;
 	font-size: 48px;
 	font-weight: 300;
+	padding-bottom: 50px;
 }
 
 .fourth-container .top-block div{
@@ -341,13 +332,13 @@ backdrop-filter: blur(25px);
 	background: #000;
 }
 
-.fourth-container .bottom-block{
+/* .fourth-container .bottom-block{
 	overflow:scroll;
 	display: grid;
 	grid-template-columns: 318px 318px 318px 318px;
 	column-gap: 24px;
 	margin-top: 50px;
-}
+} */
 
 .fourth-container .bottom-block .block1>img,
 .fourth-container .bottom-block .block2>img,
@@ -374,14 +365,18 @@ backdrop-filter: blur(25px);
 .fourth-container .bottom-block .block3 .like img,
 .fourth-container .bottom-block .block4 .like img{
 	position: absolute;
-	top: 25px;
+	top: 27px;
 	right: 27px;
+	width: 24px;
+	height: 24px;
 }
 
 .fourth-container .bottom-block div .purchase a img{
 	border-radius: 50px;
 	background: #DA0300;
 	padding: 12px 26px;
+	width: 34px;
+	height: 34px;
 }
 
 .fourth-container .bottom-block div .purchase p{
@@ -426,6 +421,54 @@ backdrop-filter: blur(25px);
 	color: #000;
 	font-size: 20px;
 	font-weight: 400;
+}
+
+.fourth-container .owl-theme .owl-dots{
+	display: none;
+}
+
+.fourth-container .owl-carousel .owl-nav button.owl-prev{
+	display: inline-grid;
+	grid-template-columns: 40px;
+	grid-template-rows: 40px;
+	align-items: center;
+	justify-items: center;
+	background-color: #DBDBDB;
+	border-radius: 50px;
+	cursor: pointer;
+	background-image: url(../images/arrow-left.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: -90px;
+		right: 60px;
+		margin: 0;
+}
+
+.fourth-container .owl-carousel .owl-nav button.owl-prev span{
+	display:none;
+}
+
+.fourth-container .owl-carousel .owl-nav button.owl-next{
+	display: inline-grid;
+	grid-template-columns: 40px;
+	grid-template-rows: 40px;
+	align-items: center;
+	justify-items: center;
+	background-color: #000;
+	border-radius: 50px;
+	cursor: pointer;
+	background-image: url(../images/arrow-right.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	right: 0;
+	top: -90px;
+	margin: 0;
+}
+
+.fourth-container .owl-carousel .owl-nav button.owl-next span{
+	display: none;
 }
 
 /*Контейнер 5*/
