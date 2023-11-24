@@ -7,7 +7,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;1,300&family=Noto+Sans:ital,wght@0,300;0,400;0,500;1,100;1,300;1,500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="Home/StyleHome.css">
+	<link rel="stylesheet" href="Home/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="Home/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="Home/css/StyleHome.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -127,13 +130,9 @@
 		<section class="third-container center">
 			<div class="top-block">
 				<h3>Специальное предложение</h3>
-				<div>
-					<a href="#"><img src="Home/images/arrow-left.svg" alt="arrow"></a>
-					<a href="#"><img src="Home/images/arrow-right.svg" alt="arrow"></a>
-				</div>
 			</div>
-			<div class="bottom-block">
-				<div class="block1">
+			<div class="bottom-block owl-carousel owl-theme">
+				<div class="block1 item">
 					<div class="like">
 						<img src="Home/images/icon-like.svg" alt="favourites">
 					</div>
@@ -150,7 +149,7 @@
 				</div>
 				</div>
 			
-				<div class="block2">
+				<div class="block2 item">
 					<div class="like">
 						<img src="Home/images/icon-like.svg" alt="favourites">
 					</div>
@@ -166,7 +165,7 @@
 					</div>
 				</div>
 
-				<div class="block3">
+				<div class="block3 item">
 					<div class="like">
 						<img src="Home/images/icon-like.svg" alt="favourites">
 					</div>
@@ -182,13 +181,13 @@
 					</div>
 				</div>
 
-				<div class="block4">
+				<div class="block4 item">
 					<div class="like">
 						<img src="Home/images/icon-like.svg" alt="favourites">
 					</div>
 					<img src="Home/images/Pedicure-chair.png" alt="pedicure-chair">
 					<div class="wrap">
-					<p>Педикюрное кресло Сириус-10</p>
+					<p>Педикюрное кресло<br> Сириус-10</p>
 					<div class="purchase">
 						<div>
 							<p>96 515 ₽</p>
@@ -197,6 +196,23 @@
 						<a href="#"><img src="Home/images/icon-shop.svg" alt="icon-shop"></a>
 					</div>
 					</div>
+				</div>
+
+				<div class="block1 item">
+					<div class="like">
+						<img src="Home/images/icon-like.svg" alt="favourites">
+					</div>
+					<img src="Home/images/Dry-heat-sterilizers .png" alt="Dry-heat-sterilizers">
+					<div class="wrap">
+					<p>Сухожаровой шкаф Sanitizing Box WX-12C</p>
+					<div class="purchase">
+						<div>
+							<p>5 941.50 ₽</p>
+							<p>6 990 ₽</p>
+						</div>
+						<a href="#"><img src="Home/images/icon-shop.svg" alt="icon-shop"></a>
+					</div>
+				</div>
 				</div>
 
 			</div>
@@ -398,5 +414,33 @@
 		</footer>
 
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="Home/js/owl.carousel.min.js"></script>
+	<script>
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        400:{
+            items:1
+        },
+				600:{
+            items:2
+        },
+        1024:{
+            items:3
+        },
+				1300:{
+						items:4
+				}
+    }
+})
+	</script>
+	<script src="Home/js/script.js"></script>
 </body>
 </html>
