@@ -818,6 +818,43 @@ backdrop-filter: blur(25px);
 }
 
 @media screen and (max-width:768px){
+
+	.second-container{
+		background-color: #FFF;
+	}
+
+	.second-container .background{
+		background-position: bottom center;
+	}
+
+	.second-container .banner{
+		grid-template-columns: 1fr;
+    grid-template-rows: 1fr 475px;
+	}
+
+
+	.second-container .banner .left-banner{
+		margin-top: 34px;
+		padding-bottom: 0;
+	}
+
+	.second-container .banner .left-banner .left-grid{
+		row-gap: 50px;
+		justify-items: center;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.second-container .banner .left-banner .left-grid h1{
+    font-size: 50px;
+    width: 480px;
+	}
+
+	.second-container .banner .right-banner img{
+		height: 95%;
+    width: 95%;
+	}
+
 	.fifth-container .top-content .first-block{
 		background-size: 35%;
 	}
@@ -836,6 +873,25 @@ backdrop-filter: blur(25px);
 
 @media screen and (max-width:600px){
 
+	.second-container .banner{
+		grid-template-rows: 1fr 383px;
+	}
+
+	.second-container .banner .left-banner .left-grid h1{
+		font-size: 38px;
+		width: 100%;
+	}
+
+	.second-container .banner .right-banner{
+		text-align: center;
+	}
+
+	.second-container .banner .right-banner img{
+		height: 80%;
+    width: 80%;
+	}
+	
+
 	.fifth-container .top-content{
 		grid-template-columns: 90%;
 		justify-content: space-around;
@@ -844,6 +900,39 @@ backdrop-filter: blur(25px);
 }
 
 @media screen and (max-width: 425px){
+
+	.second-container{
+		background-position: right -15px top 168px;
+	}
+
+	.second-container .background{
+		background-position: bottom 0 left -500px;
+	}
+
+	.second-container .banner{
+		grid-template-rows: 1fr 383px;
+	}
+
+	.second-container .banner .right-banner{
+		right: -10px;
+	}
+
+	.second-container .banner .right-banner img{
+		width: 320px;
+    height: 349px;
+	}
+
+	.second-container .banner .left-banner{
+		margin-top: 32px;
+	}
+
+	.second-container .banner .left-banner .left-grid{
+		row-gap: 40px;
+	}
+
+	.second-container .banner .left-banner .left-grid h1{
+		font-size: 30px;
+	}
 
 	.fifth-container{
 		padding-top: 39px;
