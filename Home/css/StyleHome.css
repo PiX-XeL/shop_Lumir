@@ -763,6 +763,18 @@ backdrop-filter: blur(25px);
 	.fifth-container .top-content{
 		grid-template-columns: 32% 32% 32%;
 	}
+
+	.fifth-container .bottom-content{
+		grid-template-columns: 31% 37% 30%;
+	}
+
+	.fifth-container .bottom-content .second-block form input{
+		width: 78%;
+	}
+
+	.fifth-container .bottom-content .second-block form button{
+		width: 85%;
+	}
 }
 
 @media screen and (max-width: 1300px){
@@ -857,6 +869,29 @@ backdrop-filter: blur(25px);
 		row-gap: 30px;
 	}
 
+	.fifth-container .bottom-content{
+		grid-template-columns: 55% 45%;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 27px;
+	}
+
+	.fifth-container .bottom-content .second-block{
+		grid-row: 2;
+	}
+
+	.fifth-container .bottom-content .second-block form input{
+		width: 75%;
+	}
+
+	.fifth-container .bottom-content .second-block form button{
+		width: 77%;
+		margin-left: 14%;
+		font-size: 20px;
+	}
+	
+
+
+
 	/* .fifth-container .top-content .third-block{
 		grid-column: 1/span2;
 	}
@@ -891,7 +926,7 @@ backdrop-filter: blur(25px);
 
 	.second-container .banner{
 		grid-template-columns: 1fr;
-    grid-template-rows: 1fr 475px;
+    grid-template-rows: 1fr 485px;
 	}
 
 
@@ -944,6 +979,14 @@ backdrop-filter: blur(25px);
 		font-size: 26px;
 	}
 
+	.fifth-container .bottom-content{
+		padding: 42px 20px;
+	}
+
+	.fifth-container .bottom-content .second-block form button{
+		margin-left: 6%;
+	}
+
 	.sixth-container .right-content div{
 		padding: 44px 19px 34px 27px;
 	}
@@ -962,7 +1005,7 @@ backdrop-filter: blur(25px);
 @media screen and (max-width:600px){
 
 	.second-container .banner{
-		grid-template-rows: 1fr 383px;
+		grid-template-rows: 1fr 410px;
 	}
 
 	.second-container .banner .left-banner .left-grid h1{
@@ -995,15 +1038,71 @@ backdrop-filter: blur(25px);
 	.fourth-container .owl-carousel .owl-nav button.owl-next{
 		right: 30%;
 	}
+
+	.third-container .top-block h3,
+	.fourth-container .top-block h3{
+		text-align: center;
+	}
 	
 	.fourth-container{
 		padding-bottom: 120px;
 	}
 
+	.fifth-container{
+		padding-bottom: 68px;
+	}
+
 	.fifth-container .top-content{
-		grid-template-columns: 90%;
+		grid-template-columns: 100%;
 		justify-content: space-around;
 	}
+
+	.fifth-container .bottom-content{
+		grid-template-columns: 1fr;
+		grid-template-rows: 0fr 1fr;
+		padding: 59px 20px 25px 20px;
+	}
+
+	.fifth-container .bottom-content .second-block form input{
+		width: 218px;
+		margin-bottom: 20px;
+	}
+
+	.fifth-container .bottom-content .second-block form button{
+		width: 286px;
+		margin-left: 0;
+		position: relative;
+		font-size: 18px;
+	}
+
+	.fifth-container .bottom-content .second-block form,
+	.fifth-container .bottom-content .first-block{
+		text-align: center;
+	}
+
+	.fifth-container .bottom-content .first-block{
+		row-gap: 12px;
+	}
+
+	.fifth-container .bottom-content .icon1,
+	.fifth-container .bottom-content .icon2,
+	.fifth-container .bottom-content .icon4{
+		display: none;
+	}
+
+	.fifth-container .bottom-content .icon3{
+		width: 30px;
+    height: 31px;
+    transform: rotate(12deg);
+		top: 18px;
+		left: 47%;
+	}
+
+	.fifth-container .bottom-content .first-block p{
+		font-size: 16px;
+	}
+
+	
 
 	.sixth-container .right-content div p,
 	.sixth-container .left-content p{
@@ -1031,7 +1130,7 @@ backdrop-filter: blur(25px);
 	}
 
 	.second-container .banner{
-		grid-template-rows: 1fr 383px;
+		grid-template-rows: 1fr 380px;
 	}
 
 	.second-container .banner .right-banner{
@@ -1055,9 +1154,13 @@ backdrop-filter: blur(25px);
 		font-size: 30px;
 	}
 
+	.fourth-container,
+	.third-container{
+		padding-top: 43px;
+	}
+
 	.fifth-container{
 		padding-top: 39px;
-		padding-bottom: 122px;
 	}
 
 	.fifth-container .top-content .first-block a h5,
