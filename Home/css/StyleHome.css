@@ -124,6 +124,18 @@ backdrop-filter: blur(25px);
 	object-fit: cover;
 }
 
+.swiper-pagination{
+	text-align: start;
+	margin-left: 48px;
+	margin-bottom: 56px;
+}
+
+.swiper-pagination-bullet{
+	background: #000;
+	width: 10px;
+	height: 10px;
+}
+
 /*Контейнер 3*/
 .third-container{
 	padding-top: 70px;
@@ -950,6 +962,10 @@ backdrop-filter: blur(25px);
     width: 95%;
 	}
 
+	.swiper-pagination{
+		margin-bottom: 26px;
+	}
+
 	.third-container .owl-carousel .owl-nav button.owl-prev,
 	.third-container .owl-carousel .owl-nav button.owl-next,
 	.fourth-container .owl-carousel .owl-nav button.owl-next,
@@ -1018,6 +1034,11 @@ backdrop-filter: blur(25px);
 	.second-container .banner .right-banner img{
 		height: 80%;
     width: 80%;
+	}
+
+	.swiper-pagination{
+		margin-left: 0;
+		text-align: center;
 	}
 
 	.third-container .owl-carousel .owl-nav button.owl-prev,
@@ -1150,7 +1171,9 @@ backdrop-filter: blur(25px);
 
 	.second-container .banner .left-banner .left-grid h1{
 		font-size: 30px;
+		width: 300px;
 	}
+	
 
 	.fourth-container,
 	.third-container{
