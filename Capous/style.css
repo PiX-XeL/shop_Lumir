@@ -31,7 +31,8 @@ body{
 .tape p a,
 .tape p .second-element a,
 .tape p .third-element a,
-.tape p .fourth-element a{
+.tape p .fourth-element a,
+.tape p .fifth-element a{
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.50);
 	font-size: 14px;
@@ -251,7 +252,8 @@ body{
 
 	.tape p a,
 	.tape p .second-element a,
-	.tape p .third-element a{
+	.tape p .third-element a,
+	.tape p .fifth-element a{
 			font-size: 12px;
 	}
 
@@ -281,7 +283,8 @@ body{
 		
 		.tape p a,
 		.tape p .second-element a,
-		.tape p .third-element a{
+		.tape p .third-element a,
+		.tape p .fifth-element a{
 				font-size: 10px;
 		}
 
