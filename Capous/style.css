@@ -121,6 +121,39 @@ body{
 	row-gap: 30px;
 }
 
+.buttons{
+	display: none;
+}
+
+.buttons .left-arrow{
+	border-radius: 50px;
+	background: #DBDBDB;
+	width: 16px;
+	height: 16px;
+	padding: 12px;
+}
+
+.buttons .right-arrow{
+	width: 16px;
+	height: 16px;
+	padding: 12px;
+	border-radius: 50px;
+	background: #000;
+}
+
+.buttons p{
+	color: #000;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.buttons p span{
+	color: #BC1311;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+
 @media screen and (max-width: 1350px){
 	.center{
 		width: calc(100% - 44px);
@@ -157,6 +190,29 @@ body{
 	.second-container .content .block11{
 		display: none;
 	}
+
+	.tape p{
+		padding-top: 18px;
+	}
+
+	.second-container{
+		padding-bottom: 40px;
+	}
+
+	.buttons{
+		display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 42px;
+	}
+
+	.buttons p,
+	.buttons p span{
+		font-size: 16px;
+	}
+
 }
 
 @media screen and (max-width: 600px){
@@ -171,10 +227,50 @@ body{
 	.second-container .content .common .wrap p{
 		font-size: 20px;
 	}
+
+	.buttons p,
+	.buttons p span{
+		font-size: 14px;
+	}
+
+	.buttons{
+    justify-content: space-around;
+    width: 327px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.second-container .content .common>img{
+		width: 318px;
+	}
+
+	.second-container h3{
+		font-size: 30px;
+		padding-bottom: 40px;
+	}
+
+	.tape p a,
+	.tape p .second-element a,
+	.tape p .third-element a{
+			font-size: 12px;
+	}
+
+	.buttons p,
+	.buttons p span{
+		font-size: 12px;
+	}
+
+	.buttons{
+    justify-content: space-evenly;
+	}
 }
 
 
 	@media screen and (max-width: 375px){
+
+		.second-container .content .common>img{
+			width: 300px;
+		}
 
 		.second-container>div div .wrap a p{
 			font-size: 18px;
