@@ -454,6 +454,10 @@ color: #FFF;
 		font-size: 30px;
 	}
 
+	.second-container .content .promo-text p{
+		margin-bottom: 15px;
+	}
+
 	.third-container{
 		padding-top: 43px;
 	}
