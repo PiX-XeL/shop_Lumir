@@ -704,7 +704,6 @@ footer .foot{
 		margin-top: 70px;
     margin-bottom: 70px;
 }
-	}
 
 	footer{
 		padding-top: 50px;
@@ -796,6 +795,31 @@ footer .foot{
 
 	footer .foot .bottom-content>p{
 		margin-right: 44px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	footer .foot .bottom-content a p{
+		width: 130px;
+	}
+
+	footer .wrap .top-content .soc-links ul li a img{
+		width: 28px;
+		height: 27px;
+		justify-content: space-evenly;
+	}
+
+	footer .wrap .top-content .soc-links p{
+		font-size: 14px;
+    margin-right: 9px;
+	}
+
+	footer .wrap .top-content{
+		grid-template-columns: 139px 1fr;
+	}
+
+	footer .foot .bottom-content{
+		justify-content: space-between;
 	}
 }
 

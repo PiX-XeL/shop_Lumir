@@ -83,7 +83,7 @@ backdrop-filter: blur(25px);
 .second-container .banner .left-banner .left-grid .btn span{
 	color: #FFF;
 	font-size: 18px;
-	
+	width: 85px;
 }
 
 .second-container .banner .left-banner .left-grid .btn a img{
@@ -759,7 +759,7 @@ backdrop-filter: blur(25px);
 .sixth-container .right-content div img{
 	position: absolute;
 	top: -22px;
-	left: 48%;
+	left: 46%;
 }
 
 .sixth-container .right-content>img{
@@ -769,6 +769,10 @@ backdrop-filter: blur(25px);
 /*Адаптивная часть*/
 
 @media screen and (max-width: 1350px){
+
+	.third-container .bottom-block div .wrap>p{
+		font-size: 18px;
+	}
 
 	.fifth-container .top-content{
 		grid-template-columns: 32% 32% 32%;
@@ -1212,7 +1216,7 @@ backdrop-filter: blur(25px);
 
 	.sixth-container .right-content div{
 		padding: 44px 19px 34px 27px;
-    width: 281px;
+    width: 85%;
     height: 161px;
 	}
 
@@ -1228,6 +1232,66 @@ backdrop-filter: blur(25px);
 
 	.sixth-container .left-content p{
 		width: 322px;
+	}
+}
+
+
+@media screen and (max-width: 375px){
+	.second-container .banner .left-banner .left-grid h1{
+		font-size: 28px;
+	}
+
+	.fifth-container .bottom-content{
+		padding:59px 15px 25px 15px;
+	}
+
+	.fifth-container .bottom-content .first-block p{
+		font-size: 14px;
+	}
+
+	.fifth-container .bottom-content .first-block h6{
+		font-size: 26px;
+	}
+
+	.fifth-container .bottom-content .second-block form input{
+		width: 170px;
+	}
+
+	.fifth-container .bottom-content .second-block form button{
+		width: 238px;
+	}
+
+	.sixth-container .left-content{
+		grid-template-columns: 0fr;
+	}
+
+	.sixth-container .left-content>img{
+		width: 90%;
+    height: 90%;
+	}
+
+	.sixth-container .left-content h3{
+		font-size: 26px;
+    width: 272px;
+	}
+
+	.sixth-container .left-content p{
+		width: 100%;
+	}
+
+	.sixth-container .right-content div{
+		padding: 24px 19px 24px 27px;
+    width: 69%;
+    height: 80%;
+	}
+
+	.sixth-container .right-content div p span:first-child,
+	.sixth-container .right-content div p span:last-child{
+		font-size: 16px;
+	}
+
+	.sixth-container .right-content div img{
+		left: 44%;
 	}
 }
 
