@@ -7,6 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;1,300&family=Noto+Sans:ital,wght@0,300;0,400;0,500;1,100;1,300;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../style.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,20 +21,29 @@
 							<div class="left-top-menu">
 								<ul>
 									<li class="menu-item"><a href="#">О нас</a></li>
-									<li class="menu-item"><a href="#">Реквизиты</a></l>
+									<li class="menu-item"><a href="#">Реквизиты</a></li>
 									<li class="menu-item"><a href="#">Новости</a></li>
-									<li class="menu-item"><a href="#">Акции</a></li>
+									<li class="menu-item"><a href="../Promotion/index.html">Акции</a></li>
 								</ul>
 							</div>
 							<div class="right-top-menu">
 								<span><a href="#">Контактная информация</a></span>
+								<div class="searc">
+									<form>
+										<input type="search" placeholder="Введите поисковой запрос" name="searcBar">
+										<button><img src="images/search.svg" alt="searc"></button>
+									</form>
+								</div>
 							</div>
 						</div>
 							<hr>
 
 						<div class="bottom-menu">
+							<div class="burger">
+								<img src="images/burger.svg" alt="burger-menu">
+							</div>
 							<div class="logo">
-								<img src="images/logo.png" alt="logo">
+								<a href="../index.html"><img src="images/logo.png" alt="logo"></a>
 							</div>
 
 							<div class="searc">
@@ -62,19 +72,21 @@
 							</div>
 
 							<div class="basket">
+								<img src="images/black-basket.svg" alt="basket">
 								<ul>
 									<li><img src="images/basket.svg" alt="basket">Корзина:</li>
-									<li class="bask">0 ₽</span></li>
+									<li class="bask">0 ₽</li>
 									<li><a href="#">Способ оплаты</a></li>
 								</ul>
 							</div>
 						</div>
 					</nav>
 				</div>
+				
 			</header>
 				<div class="submenu">
 					<div>
-						<a href="#">Профессиональная косметика</a>
+						<a href="../ProfessionalCosmetics/index.html">Профессиональная косметика</a>
 						<a href="#">Оборудование и оснащение</a>
 						<a href="#">Расходные материалы</a>
 						<a href="#">Инструменты и приборы</a>
@@ -82,6 +94,39 @@
 					</div>
 				</div>
 				<!--Перекинуть суцбменю в хеддер,т.к. так требует адаптив-->
+		</section>
+
+		<section class="burger-menu center">
+			<div class="submenu">
+				<div>
+					<a href="../ProfessionalCosmetics/index.html">Профессиональная косметика</a>
+					<a href="#">Оборудование и оснащение</a>
+					<a href="#">Расходные материалы</a>
+					<a href="#">Инструменты и приборы</a>
+					<a href="#">Решения для бизнеса</a>
+				</div>
+			</div>
+
+			<div class="contacts-info">
+				<span><a href="#">Контактная информация</a></span>
+			<div class="location">
+				<ul>
+					<li><img src="images/location.svg" alt="location">Москва, ул. Люблинская, д. 141</li>
+					<li class="clock">Пн-Пт: <span>09-21,</span> Сб-Вс: <span>Выходной</span></li>
+					<li class="clock"><a href="#">Условия доставки</a></li>
+				</ul>
+			</div>
+
+			<div class="contacts">
+				<ul>
+					<li><img src="images/contacts.svg" alt="contacts">
+						<a href="tel:88007758291">8 (800) <span>775-82-91</span></a></li>
+					<li class="con"><a href="tel:84952551175">8 (495) <span>255-11-75</span></a></li>
+					<li class="con con1"><a href="#">Заказать звонок</a></li>
+				</ul>
+			</div>
+		</div>
+
 		</section>
 
 		<div class="tape center">
@@ -323,14 +368,18 @@
 					</div>
 				</div>
 			
-				<div class="bottom-content">
-						<p>2023 ЛюМирШоп Все права защищены</p>
-						<a href="#"><p>Политика конфиденциальности</p></a>
+			</div>
+			
+			<div class="foot">
+				<div class="bottom-content center">
+					<p>2023 ЛюМирШоп<br> Все права защищены</p>
+					<a href="#"><p>Политика конфиденциальности</p></a>
 				</div>
-
 			</div>
 		</footer>
 
 	</div>
+
+	<script src="../Home/js/script.js"></script>
 </body>
 </html>

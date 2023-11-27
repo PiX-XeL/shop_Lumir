@@ -770,10 +770,6 @@ backdrop-filter: blur(25px);
 
 @media screen and (max-width: 1350px){
 
-	.third-container .bottom-block div .wrap>p{
-		font-size: 18px;
-	}
-
 	.fifth-container .top-content{
 		grid-template-columns: 32% 32% 32%;
 	}
@@ -822,6 +818,10 @@ backdrop-filter: blur(25px);
 		row-gap: 10%;
 	}
 
+	.fourth-container .bottom-block .block3 .wrap>p{
+		margin-right: 30px
+	}
+
 	.sixth-container{
 		grid-template-columns: 1fr;
 	}
@@ -858,8 +858,6 @@ backdrop-filter: blur(25px);
 		height: 100%;
 	}
 
-
-
 }
 
 @media screen and (max-width:1024px){
@@ -875,6 +873,17 @@ backdrop-filter: blur(25px);
 	.third-container .top-block h3,
 	.fourth-container .top-block h3 {
 		font-size: 40px;
+	}
+
+	.third-container .bottom-block div .wrap>p,
+	.fourth-container .bottom-block div .wrap>p{
+		font-size: 18px;
+	}
+
+	.third-container .bottom-block div .purchase p,
+	.fourth-container .bottom-block div .purchase p
+	{
+		font-size: 22px;
 	}
 
 	.fifth-container .top-content{
@@ -982,6 +991,17 @@ backdrop-filter: blur(25px);
 		font-size: 32px;
 	}
 
+	.third-container .bottom-block div .wrap>p,
+	.fourth-container .bottom-block div .wrap>p{
+		font-size: 20px;
+	}
+
+	.third-container .bottom-block div .purchase p,
+	.fourth-container .bottom-block div .purchase p
+	{
+		font-size: 24px;
+	}
+
 	.fifth-container .top-content .first-block{
 		background-size: 35%;
 	}
@@ -1069,6 +1089,10 @@ backdrop-filter: blur(25px);
 	
 	.fourth-container{
 		padding-bottom: 120px;
+	}
+
+	.fourth-container .bottom-block div .wrap{
+		justify-self: center;
 	}
 
 	.fifth-container{

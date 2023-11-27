@@ -7,8 +7,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;1,300&family=Noto+Sans:ital,wght@0,300;0,400;0,500;1,100;1,300;1,500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -21,9 +21,9 @@
 							<div class="left-top-menu">
 								<ul>
 									<li class="menu-item"><a href="#">О нас</a></li>
-									<li class="menu-item"><a href="#">Реквизиты</a></l>
+									<li class="menu-item"><a href="#">Реквизиты</a></li>
 									<li class="menu-item"><a href="#">Новости</a></li>
-									<li class="menu-item"><a href="Promotion/index.html">Акции</a></li>
+									<li class="menu-item"><a href="../Promotion/index.html">Акции</a></li>
 								</ul>
 							</div>
 							<div class="right-top-menu">
@@ -31,7 +31,7 @@
 								<div class="searc">
 									<form>
 										<input type="search" placeholder="Введите поисковой запрос" name="searcBar">
-										<button><img src="Home/images/search.svg"searc"></button>
+										<button><img src="images/search.svg" alt="searc"></button>
 									</form>
 								</div>
 							</div>
@@ -40,23 +40,23 @@
 
 						<div class="bottom-menu">
 							<div class="burger">
-								<img src="Home/images/burger.svg" alt="burger-menu">
+								<img src="images/burger.svg" alt="burger-menu">
 							</div>
 							<div class="logo">
-								<img src="Home/images/logo.png" alt="logo">
+								<a href="../index.html"><img src="images/logo.png" alt="logo"></a>
 							</div>
 
 							<div class="searc">
 								<span>Поиск по каталогу</span>
 								<form>
 									<input type="search" placeholder="Введите поисковой запрос" name="searcBar">
-									<button><img src="Home/images/search.svg" alt="searc"></button>
+									<button><img src="images/search.svg" alt="searc"></button>
 								</form>
 							</div>
 
 							<div class="location">
 								<ul>
-									<li><img src="Home/images/location.svg" alt="location">Москва, ул. Люблинская, д. 141</li>
+									<li><img src="images/location.svg" alt="location">Москва, ул. Люблинская, д. 141</li>
 									<li class="clock">Пн-Пт: <span>09-21,</span> Сб-Вс: <span>Выходной</span></li>
 									<li class="clock"><a href="#">Условия доставки</a></li>
 								</ul>
@@ -64,7 +64,7 @@
 
 							<div class="contacts">
 								<ul>
-									<li><img src="Home/images/contacts.svg" alt="contacts">
+									<li><img src="images/contacts.svg" alt="contacts">
 										<a href="tel:88007758291">8 (800) <span>775-82-91</span></a></li>
 									<li class="con"><a href="tel:84952551175">8 (495) <span>255-11-75</span></a></li>
 									<li class="con con1"><a href="#">Заказать звонок</a></li>
@@ -72,10 +72,10 @@
 							</div>
 
 							<div class="basket">
-								<img src="Home/images/black-basket.svg" alt="basket">
+								<img src="images/black-basket.svg" alt="basket">
 								<ul>
-									<li><img src="Home/images/basket.svg" alt="basket">Корзина:</li>
-									<li class="bask">0 ₽</span></li>
+									<li><img src="images/basket.svg" alt="basket">Корзина:</li>
+									<li class="bask">0 ₽</li>
 									<li><a href="#">Способ оплаты</a></li>
 								</ul>
 							</div>
@@ -86,7 +86,7 @@
 			</header>
 				<div class="submenu">
 					<div>
-						<a href="Professional Cosmetics/index.html">Профессиональная косметика</a>
+						<a href="../ProfessionalCosmetics/index.html">Профессиональная косметика</a>
 						<a href="#">Оборудование и оснащение</a>
 						<a href="#">Расходные материалы</a>
 						<a href="#">Инструменты и приборы</a>
@@ -96,11 +96,44 @@
 				<!--Перекинуть суцбменю в хеддер,т.к. так требует адаптив-->
 		</section>
 
+		<section class="burger-menu center">
+			<div class="submenu">
+				<div>
+					<a href="../ProfessionalCosmetics/index.html">Профессиональная косметика</a>
+					<a href="#">Оборудование и оснащение</a>
+					<a href="#">Расходные материалы</a>
+					<a href="#">Инструменты и приборы</a>
+					<a href="#">Решения для бизнеса</a>
+				</div>
+			</div>
+
+			<div class="contacts-info">
+				<span><a href="#">Контактная информация</a></span>
+			<div class="location">
+				<ul>
+					<li><img src="images/location.svg" alt="location">Москва, ул. Люблинская, д. 141</li>
+					<li class="clock">Пн-Пт: <span>09-21,</span> Сб-Вс: <span>Выходной</span></li>
+					<li class="clock"><a href="#">Условия доставки</a></li>
+				</ul>
+			</div>
+
+			<div class="contacts">
+				<ul>
+					<li><img src="images/contacts.svg" alt="contacts">
+						<a href="tel:88007758291">8 (800) <span>775-82-91</span></a></li>
+					<li class="con"><a href="tel:84952551175">8 (495) <span>255-11-75</span></a></li>
+					<li class="con con1"><a href="#">Заказать звонок</a></li>
+				</ul>
+			</div>
+		</div>
+
+		</section>
+
 		<div class="tape center">
 			<p>
-				<a href="#">Каталог товаров - </a>
-				<span class="second-element"><a href="../Professional Cosmetics/index.html">Профессиональная косметика - </a></span>
-				<span class="third-element"><a href="../Рair Сare/index.html">Уход за волосами - </a></span>
+				<a href="../index.html">Каталог товаров - </a>
+				<span class="second-element"><a href="../ProfessionalCosmetics/index.html">Профессиональная косметика - </a></span>
+				<span class="third-element"><a href="../РairСare/index.html">Уход за волосами - </a></span>
 				<span class="fourth-element"><a href="#">Защитные средства</a></span>
 			</p>
 		</div>
@@ -121,7 +154,7 @@
 		<footer>
 			<div class="wrap center">
 				<div class="top-content">
-					<img src="Home/images/footerLogo.png" alt="logo">
+					<img src="images/footerLogo.png" alt="logo">
 					<div class="left-block">
 						<ul>
 							<li><a href="#">О компании</a></li>
@@ -143,19 +176,19 @@
 						<div>
 							<ul>
 								<li>
-									<a href="#"><img src="Home/images/soc-link.svg" alt="soc1"></a>
+									<a href="#"><img src="images/soc-link.svg" alt="soc1"></a>
 								</li>
 								<li>
-									<a href="#"><img src="Home/images/soc-link.svg" alt="soc1"></a>
+									<a href="#"><img src="images/soc-link.svg" alt="soc1"></a>
 								</li>
 								<li>
-									<a href="#"><img src="Home/images/soc-link.svg" alt="soc1"></a>
+									<a href="#"><img src="images/soc-link.svg" alt="soc1"></a>
 								</li>
 								<li>
-									<a href="#"><img src="Home/images/soc-link.svg" alt="soc1"></a>
+									<a href="#"><img src="images/soc-link.svg" alt="soc1"></a>
 								</li>
 								<li>
-									<a href="#"><img src="Home/images/soc-link.svg" alt="soc1"></a>
+									<a href="#"><img src="images/soc-link.svg" alt="soc1"></a>
 								</li>
 							</ul>
 						</div>
@@ -173,5 +206,7 @@
 		</footer>
 
 	</div>
+
+	<script src="../Home/js/script.js"></script>
 </body>
 </html>

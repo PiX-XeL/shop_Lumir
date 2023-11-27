@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	font-family:'Noto Sans';
+}
+
+.wrapper{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFF;;
+}
+
+.center{
+	max-width: 1344px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*Полоса*/
+
+.tape p{
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.tape p a,
+.tape p .second-element a{
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.50);
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.tape p .third-element a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*Коттейнер2*/
+
+.second-container h3{
+	color: #000;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 175%;
+	padding-bottom: 48px;
+}
+
+.second-container div a{
+	text-decoration: none;
+}
+
+.second-container div a p{
+	color: #000;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.second-container div .first-block div p,
+.second-container div .second-block div p,
+.second-container div .third-block div p,
+.second-container div .fourth-block div p,
+.second-container div .fifth-block div p,
+.second-container div .sixth-block div p,
+.second-container div .seventh-block div p,
+.second-container div .eighth-block div p,
+.second-container div .ninth-block div p,
+.second-container div .tenth-block div p,
+.second-container div .eleventh-block div p{
+	padding-top: 209px;
+	padding-left: 27px;
+	padding-bottom: 27px;
+}
+
+.second-container>div div{
+	border-radius: 50px;
+	background-color: #FFF;
+	width: 431px;
+	position: relative;
+}
+
+.second-container div div .wrap{
+	border:0.5px solid rgba(0, 0, 0, 0.46);
+}
+
+
+.second-container div .first-block div img{
+	position: absolute;
+	top: 25px;
+	left: 89.5px;
+}
+
+.second-container div .second-block div img{
+	position: absolute;
+	top: 31px;
+	left: 113px;
+}
+
+.second-container div .third-block div img{
+	position: absolute;
+	top: 7px;
+	left: 127px;
+}
+
+.second-container div .fourth-block div img{
+	position: absolute;
+	top: 15px;
+	left: 127px;
+}
+
+.second-container div .fifth-block div img{
+	position: absolute;
+	top: 40px;
+	left: 108px;
+}
+
+.second-container div .sixth-block div img{
+	position: absolute;
+	top: 23px;
+	left: 149px;
+}
+
+.second-container div .seventh-block div img{
+	position: absolute;
+	top: 9px;
+	left: 134px;
+}
+
+.second-container div .eighth-block div img{
+	position: absolute;
+	top:0;
+	left: 115px;
+}
+
+.second-container div .ninth-block div img{
+	position: absolute;
+	top:0;
+	left: 132px;
+}
+
+.second-container div .tenth-block div img{
+	position: absolute;
+	top:30px;
+	left: 109px;
+}
+
+.second-container div .eleventh-block div img{
+	position: absolute;
+	top:0;
+	left: 132px;
+}
+
+.second-container>div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 26px;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	row-gap: 24px;
+	padding-bottom: 81px;
+}
+
+@media screen and (max-width: 1350px){
+	.center{
+		width: calc(100% - 44px);
+	}
+
+	.second-container>div{
+		grid-template-columns: 32% 32% 32%;
+		column-gap: 1%;
+		row-gap: 24px;
+		justify-content: space-between;
+	}
+
+	.second-container>div div{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1300px){
+
+	.second-container div .third-block div p{
+		padding-right: 12px;
+		padding-top: 189px;
+		padding-bottom: 22px;
+	}
+
+	.second-container>div div .wrap a p{
+		font-size: 20px;
+	}
+
+	.second-container>div div .wrap a img{
+		left: 20%;
+		top: 10%;
+		height: 60%;
+		width: 60%;
+		/* object-fit: cover; */
+	}
+
+}
+
+@media screen and (max-width: 1024px){
+
+	.second-container>div{
+		grid-template-columns: 48% 48%;
+		column-gap: 2%;
+    justify-content: space-between;
+	}
+
+	.second-container>div div{
+		height: 266px;
+	}
+
+	.second-container div .third-block div p{
+		padding-right: 80px;
+	}
+
+}
+
+@media screen and (max-width:768px){
+
+	.second-container div .third-block div p,
+	.second-container>div div div p{
+		padding-right: 10px;
+	}
+
+}
+
+@media screen and (max-width:600px){
+	.center{
+		width: calc(100% - 48px);
+	}
+
+	.second-container>div{
+		grid-template-columns: 90%;
+		justify-content: space-around;
+	}
+
+	.second-container>div div .wrap a p{
+		font-size: 22px;
+	}
+
+}
+
+@media screen and (max-width:425px){
+
+	.tape p a, .tape p .second-element a{
+		font-size: 12px;
+	}
+
+	.second-container>div{
+		grid-template-columns:100%;
+	}
+
+	.second-container h3{
+		font-size: 30px;
+		padding-bottom: 40px;
+	}
+
+	.second-container>div{
+		padding-bottom: 51px;
+	}
+
+}
+
+	@media screen and (max-width: 375px){
+
+		.second-container>div div .wrap a p{
+			font-size: 18px;
+		}
+
+		.second-container h3{
+			font-size: 28px;
+		}
+		
+		.tape p a,
+		.tape p .second-element a,
+		.tape p .third-element a{
+				font-size: 10px;
+		}
+
+		.tape p {
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+	}

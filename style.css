@@ -123,6 +123,7 @@ height: 1px;
 .first-container header .menu .bottom-menu .logo{
 	margin-top: 42px;
 	margin-bottom: 44px;
+	text-decoration: none;
 }
 
 .first-container header .menu .bottom-menu .searc span{

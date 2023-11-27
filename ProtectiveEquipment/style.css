@@ -90,3 +90,61 @@ body{
 	margin-bottom: 81px;
 }
 
+@media screen and (max-width: 1350px){
+	.center{
+		width: calc(100% - 44px);
+	}
+}
+
+@media screen and (max-width: 600px){
+	.second-container>div div{
+		width: 377px;
+	}
+
+	.second-container div .first-block div img{
+		left: 60px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.second-container>div div{
+		width: 100%;
+	}
+
+	.second-container h3{
+		font-size: 30px
+	}
+
+	.tape p a,
+	.tape p .second-element a,
+	.tape p .third-element a
+		{
+			font-size: 12px;
+	}
+
+	.second-container div .first-block div img{
+		width: 80%;
+		left: 10%;
+	}
+}
+
+@media screen and (max-width: 375px){
+
+	.second-container h3{
+		font-size: 28px;
+	}
+	
+	.tape p a,
+	.tape p .second-element a,
+	.tape p .third-element a{
+			font-size: 10px;
+	}
+
+	.tape p {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+}
+
+
+
