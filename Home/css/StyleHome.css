@@ -582,12 +582,15 @@ backdrop-filter: blur(25px);
 	background-position: right bottom;
 }
 
-.fifth-container .top-content .first-block:hover,
-.fifth-container .top-content .second-block:hover,
-.fifth-container .top-content .third-block:hover{
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+@media (min-width: 768px){
+	.fifth-container .top-content .first-block:hover,
+	.fifth-container .top-content .second-block:hover,
+	.fifth-container .top-content .third-block:hover{
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+		background-color:#EDEDED;
+	}
 }
 
 .fifth-container .bottom-content{
