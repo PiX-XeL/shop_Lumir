@@ -469,7 +469,8 @@ footer .wrap .top-content .right-block ul{
 	row-gap: 12px;
 }
 
-footer .wrap .top-content>img{
+footer .wrap .top-content a{
+	text-decoration: none;
 	margin-top: 6px;
 }
 
@@ -616,7 +617,7 @@ footer .foot{
 		margin-bottom: 57px;
 	}
 
-	footer .wrap .top-content>img{
+	footer .wrap .top-content a{
 		grid-column: 1/span3;
 	}
 
@@ -722,8 +723,11 @@ footer .foot{
 		column-gap: 0;
 	}
 
-	footer .wrap .top-content>img{
+	footer .wrap .top-content a img{
 		width: 168px;
+	}
+
+	footer .wrap .top-content a{
 		margin-top: 0;
 	}
 	
@@ -772,7 +776,7 @@ footer .foot{
 		margin-left: 12px;
 	}
 
-	footer .wrap .top-content>img{
+	footer .wrap .top-content a img{
 		width: 156px;
 	}
 
